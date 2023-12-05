@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: Inter;
+}
+
+.bgImgColor{
+    background: url('./assets/image/banner3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(red, black); */
+    /* background: rgba(231, 189, 189, 0.95); */
+}
